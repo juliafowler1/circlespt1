@@ -20,11 +20,14 @@ position: absolute;
     position: relative;
 }
 .mainInfo {
-    /* border-left: solid black;  */
+    border-left: solid #69696a;
     padding: 10px;
 }
 h4 { 
     display: inline-block;
+    font-size: 1.4rem;
+    padding: 5px;
+    margin-bottom: 5px;
 }
 .circleWrapper{
     position: relative;
