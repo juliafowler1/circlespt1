@@ -1,12 +1,19 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f9fafc;
+    /* min-width: 480px; */
+    
 }
-main 
 .menuLabels {
+    /* display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    text-align: left; */
+}
+.navLinks {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
 
 h4 {
@@ -30,6 +37,7 @@ h4 {
 .mainInfo {
     border-left: solid #69696a;
     padding: 10px;
+    /* width: auto; */
 
 }
 
@@ -41,6 +49,7 @@ h4 {
     padding: 5px;
     display: flex;
     justify-content: center;
+    width: 100%
 }
 
 .bottomButton {
@@ -50,9 +59,9 @@ h4 {
     color: white;
     padding: 5px;
     position: relative;
-    justify-content: center;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .circleWrapper {
@@ -60,6 +69,20 @@ h4 {
 }
 
 @media only screen and (min-width: 480px) {
+
+    span {
+        margin-left: 5px;
+    }
+    .navLinks {
+        flex-direction: row;
+        /* justify-content: space-around; */
+
+        /* justify-content: space-evenly;
+        align-items: center */
+    }
+    .mainInfo {
+        width: 50%;
+    }
     .circleWrapper {
         display: flex;
         position: relative;
@@ -67,31 +90,31 @@ h4 {
         height: 100px;
     }
     .circleOne {
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         background-color: rgba(247, 136, 167, 0.6);
         border-radius: 50%;
         position: absolute;
-        left: 550%;
+        left: 800%;
         top: 58%;
     }
     .circleTwo {
-        width: 70px;
-        height: 70px;
+        width: 100px;
+        height: 100px;
         background: rgba(207, 130, 213, 0.6);
         border-radius: 50%;
         position: absolute;
-        left: 600%;
-        bottom: 1%;
+        left: 954%;
+        bottom: -32%;
     }
     .circleThree {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
         background: rgba(247, 193, 162, 0.7);
         border-radius: 50%;
         position: absolute;
-        left: 585%;
-        bottom: -67%;
+        left: 963%;
+        bottom: -167%;
     }
     .blackButton {
         background-color: #000;
@@ -99,6 +122,8 @@ h4 {
         border-radius: 15px;
         color: white;
         padding: 5px;
+      
+      
     }
 
     .bottomButton {
@@ -107,6 +132,21 @@ h4 {
         border-radius: 15px;
         color: white;
         padding: 5px;
-        position: relative;
+        position: fixed;
+        bottom: 0;
+        width: auto;
+
+
+    }
+    footer {
+        display: flex;
         justify-content: center;
+        width: 100%;
+
+    }
+    .menuLabels {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
     }
