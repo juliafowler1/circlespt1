@@ -1,3 +1,86 @@
-p {
-    color: red;
+body {
+    font-family: 'Open Sans', sans-serif; 
+    background-color: #f9fafc;
+}
+main {
+position: absolute;
+
+
+}
+.menuLabels p {
+    text-align: right; 
+    /* padding: 14px 16px; */
+    /* text-decoration: none; */
+    font-size: 17px;
+    display: inline-block;
+    
+}
+.leftNav{
+    display: inline-block;
+    position: relative;
+}
+.mainInfo {
+    /* border-left: solid black;  */
+    padding: 10px;
+}
+h4 { 
+    display: inline-block;
+}
+.circleWrapper{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.circleOne {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(247, 136, 167, 0.6);
+    /* border: 3px solid red; */
+    border-radius: 50%;
+    position: absolute;
+    /* z-index: 2; */
+    left: 550%;
+    top: 58%;
+    
+}
+
+.circleTwo {
+    width: 70px;
+    height: 70px;
+    background: rgba(207, 130, 213, 0.6);
+    /* border: 3px solid blue; */
+    border-radius: 50%;
+    position: absolute;
+    left: 600%;
+    bottom: 1%;
+}
+.circleThree {
+    width: 100px;
+    height: 100px;
+    background: rgba(247, 193, 162, 0.7);
+    /* border: 3px solid green; */
+    border-radius: 50%;
+    position: absolute; 
+    left: 585%; 
+    bottom: -67%;
+
+}
+.blackButton {
+    background-color: #000;
+    height: 30px;
+    border-radius: 15px;
+    color: white;
+    padding: 5px;
+}
+
+.bottomButton {
+    background-color: #000;
+    height: 30px;
+    border-radius: 15px;
+    color: white;
+    padding: 5px;
+    position: relative;
+    /* display: flex;  */
+    /* align-items: baseline; */
+    justify-content: center;
 }
